@@ -1,0 +1,20 @@
+ÀÄv1
+   ÃÄMAIN  0/309  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ??0??
+   ³  ÃÄstrlen  0/32  Ram=5
+   ³  ÃÄ@PSTRINGC7_9600_62_63  0/65  Ram=4
+   ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ÃÄ@PSTRINGC7_9600_62_63  0/65  Ram=4
+   ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ÃÄ@PSTRINGC7_9600_62_63  0/65  Ram=4
+   ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ÃÄ@PSTRINGC7_9600_62_63  0/65  Ram=4
+   ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ÃÄ@PSTRINGC7_9600_62_63  0/65  Ram=4
+   ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ÃÄ@PSTRINGC7_9600_62_63  0/65  Ram=4
+   ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ÃÄ@PSTRINGR_9600_62_63  0/25  Ram=2
+   ³  ÀÄ@delay_ms1  0/20  Ram=1
+   ÀÄssp_interrupt  0/100  Ram=4

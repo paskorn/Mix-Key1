@@ -1,0 +1,21 @@
+>>> Warning 203 "C:\Program Files\PICC\drivers\pic18_usb.c" Line 623(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 178(1,1): Condition always TRUE
+>>> Warning 203 "main.c" Line 422(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 429(0,1): Interrupts disabled during call to prevent re-entrancy:  (@I2C_READU_1)
+>>> Warning 202 "main.c" Line 343(9,13): Variable never used:   date
+>>> Warning 202 "main.c" Line 344(9,14): Variable never used:   month
+>>> Warning 202 "main.c" Line 345(9,13): Variable never used:   hour
+>>> Warning 202 "main.c" Line 346(9,15): Variable never used:   minute
+>>> Warning 202 "main.c" Line 348(14,19): Variable never used:   index
+>>> Warning 202 "main.c" Line 350(12,14): Variable never used:   ch
+>>> Warning 202 "main.c" Line 398(14,19): Variable never used:   count
+>>> Warning 202 "main.c" Line 399(9,11): Variable never used:   hr
+>>> Warning 202 "main.c" Line 399(13,16): Variable never used:   min
+>>> Warning 202 "main.c" Line 399(17,20): Variable never used:   sec
+>>> Warning 202 "main.c" Line 400(9,11): Variable never used:   yr
+>>> Warning 202 "main.c" Line 400(13,15): Variable never used:   mo
+>>> Warning 202 "main.c" Line 400(17,20): Variable never used:   day
+>>> Warning 202 "main.c" Line 400(22,25): Variable never used:   dow
+>>> Warning 202 "main.c" Line 401(10,20): Variable never used:   clock_tran
+      Memory usage:   ROM=21%      RAM=25% - 32%
+      0 Errors,  19 Warnings.

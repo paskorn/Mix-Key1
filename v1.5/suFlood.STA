@@ -1,0 +1,97 @@
+
+ROM used: 4382 (53%)
+          5068 (62%) including unused fragments
+
+          1 Average locations per line
+          4 Average locations per statement
+
+RAM used: 122 (33%) at main() level
+          241 (65%) worst case
+
+Stack used: 6 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  256    79   7  suFlood.c
+  419     0   0  ..\..\..\..\..\Program Files\PICC\devices\16F886.h
+   66     0   0  Slave.h
+ 2220   257  22  ..\..\..\..\..\Program Files\PICC\drivers\math.h
+  579   196  17  oasysLCD.c
+ 1273   359  30  ..\..\..\..\..\Program Files\PICC\drivers\stdlib.H
+   32     0   0  ..\..\..\..\..\Program Files\PICC\drivers\stddef.h
+  409   121  10  ..\..\..\..\..\Program Files\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\..\Program Files\PICC\drivers\ctype.h
+  328    92   8  SHT15.c
+  152    61   5  myMCP3208.c
+   71    14   1  ultrasonic.c
+----- -----
+ 5833  1179 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     15   0   1             @I2C_WRITE_1
+1     33   1   4             @SFTOI
+0     31   1   2             @ITOF
+0    119   3  13             @MULFF
+0    326   7  16             @ADDFF
+0    204   5  14             @DIVFF
+0     20   0   1             @delay_ms3
+ Inline        1             @delay_us3
+1     39   1   5             @DIV1616
+0      9   0   0    38  1.4  timer1_isr
+ Inline        0    33  1.3  triggerScreenUpdate
+ Inline        0    69  1.6  resetI2C
+0      7   0   0    48  1.1  submit
+0     15   0   1   145  3.1  type
+0      7   0   0             @const519
+0     19   0   1             @SPRINTF
+ Inline        0    43  1.1  hideCursor
+0     27   1   2   151  3.5  setPosition
+ Inline        0    16  1.0  getPosition
+ Inline        0    27  0.9  twoDisplay
+0     75   2   0   396  2.4  init
+0    100   2   1   295  4.6  updateScreen
+1    229   5   4   650  3.4  show_temp
+1    237   5   4   679  3.4  show_humid
+1    353   8   4  1079  5.6  show_sonic
+0     14   0   0    54  1.2  InitialChip
+0     33   1   0   149  1.3  SHTStart
+0     33   1   1   195  3.2  SHTConReset
+0     73   2   2   485  5.4  SHTWrite
+1     92   2   9   786  5.8  SHTRead
+ Inline       33   842  5.8  oa_Temp_n_Humid
+ Inline        4   360  6.5  write_adc_byte
+1     35   1   3   297  4.8  read_adc_byte
+ Inline        8   947  7.2  read_analog_mcp
+ Inline        1    39  1.8  read_analog
+1    356   8   9   299  4.8  foa_Sonic
+2    972  22   3   595  4.0  MAIN
+0    526  12   3  1833 11.5  ssp_interrupt
+ Inline        0             @MEMSET
+ Inline        5             @FTOSD
+0     81   2  13             @DIV3232
+0    244   6  13             @PRINTF_L32D_521FPFPF
+
+Program metrics:
+    Functions               27
+    Statements              1179
+    Comments                1829
+    Volume (V)              18242
+    Difficilty (D)          99.2
+    Effort to implement (E) 1810184
+    Time to implement (T)   27 hours, 56 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   39
+    Maintainability (MI)    85
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00039    54  0  
+0003A-007FF  1978  12  
+00800-00FFF  1374  674  
+01000-017FF   972  1076  
+01800-01FFF     0  2048  
+
+
+

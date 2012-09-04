@@ -1,0 +1,53 @@
+[PROJECT]
+Target=main.HEX
+Development_Mode=2
+Processor=0x4550
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=G:\PM10\PicC\I2C_TCDC\v1.1\main.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[main.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=main.c
+
+[Windows]
+0=0000 main.c 0 0 796 451 3 0
+
+[Opened Files]
+1=suFlood.c
+2=main.c
+3=main.h
+4=
+5=
+6=main.h
+7=..\..\Main\main.c
+8=
+9=C:\Documents and Settings\OASYS Member\My Documents\Downloads\i2c demo\i2c demo\send and receive data\slave.c
+10=C:\Documents and Settings\OASYS Member\My Documents\Downloads\display_slave.c
+11=C:\Documents and Settings\OASYS Member\My Documents\Downloads\display_slave.h
+12=C:\Documents and Settings\OASYS Member\My Documents\Downloads\LCD Control.c
+13=oasysLCD.c
+14=C:\Program Files\PICC\drivers\math.h
+15=C:\Program Files\PICC\drivers\stdlib.h
+16=
+[Units]
+Count=1
+1=main (main)

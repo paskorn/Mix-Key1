@@ -1,0 +1,46 @@
+[PROJECT]
+Target=SlaveGSM.HEX
+Development_Mode=2
+Processor=0x886F
+Processor_Text=PIC16F886
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=G:\PM10\PicC\I2C_TCDC\v1.1\SlaveGSM.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[SlaveGSM.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=SlaveGSM.c
+
+[Windows]
+0=0000 SlaveGSM.c 0 0 796 451 3 0
+
+[Opened Files]
+1=suFlood.c
+2=main.c
+3=SlaveGSM.c
+4=
+5=..\i2c_to_rs232\Program\main.c
+6=..\..\..\..\XBEE_I2C_SLAVE\XBEE_I2C_SLAVE.h
+7=SlaveGSM.c
+8=SlaveGSM.h
+9=
+[Units]
+Count=1
+1=SlaveGSM (main)

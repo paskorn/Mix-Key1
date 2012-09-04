@@ -1,0 +1,53 @@
+[PROJECT]
+Target=suFlood.HEX
+Development_Mode=2
+Processor=0x886F
+Processor_Text=PIC16F886
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=G:\PM10\PicC\I2C_TCDC\v1.1\suFlood.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[suFlood.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=suFlood.c
+
+[Windows]
+0=0000 suFlood.c 0 0 796 451 3 0
+
+[Opened Files]
+1=suFlood.c
+2=
+3=oasysLCD.c
+4=
+5=SHT15.c
+6=
+7=C:\Users\MINNY\Dropbox\CurrentSensor\Code for GOGO\main.c
+8=C:\Users\MINNY\Documents\seven\testUltra.c
+9=C:\Users\MINNY\Desktop\today\SHT15-Testing-v12\LCD.c
+10=C:\Users\MINNY\Desktop\today\SHT15-Testing-v12\oasysLCD.c
+11=..\SHT15-Testing-v11\V2\SHT15-Testing-v11\suFlood.c
+12=suFlood.c
+13=
+14=C:\Program Files\PICC\drivers\math.h
+15=C:\Program Files\PICC\drivers\stdlib.h
+16=
+[Units]
+Count=1
+1=suFlood (main)

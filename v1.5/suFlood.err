@@ -1,0 +1,22 @@
+>>> Warning 225 "C:\Users\Paskorn\Dropbox\PICC\v1.5\Slave.h" Line 50(26,32): Duplicate #define
+>>> Warning 225 "C:\Users\Paskorn\Dropbox\PICC\v1.5\Slave.h" Line 51(22,32): Duplicate #define
+>>> Warning 203 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 257(1,1): Condition always TRUE
+>>> Warning 216 "suFlood.c" Line 257(0,1): Interrupts disabled during call to prevent re-entrancy:  (@ADDFF)
+>>> Warning 216 "suFlood.c" Line 257(0,1): Interrupts disabled during call to prevent re-entrancy:  (@DIVFF)
+>>> Warning 216 "suFlood.c" Line 257(0,1): Interrupts disabled during call to prevent re-entrancy:  (@MULFF)
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 134(23,33): Variable never used:   slaveState
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 135(11,16): Variable never used:   input
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 142(18,30): Variable never used:   gblNewLCDPos
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 144(7,22): Variable never used:   gblDisplayValue
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 145(6,17): Variable never used:   valueBuffer
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 148(5,22): Variable never used:   gblSensorBufferHi
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 149(5,23): Variable never used:   gblSensorBufferLow
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 152(22,38): Variable never used:   gblSensorTimeout
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\oasysLCD.c" Line 154(5,26): Variable never used:   gblLastSensorReceived
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\myMCP3208.c" Line 134(12,13): Variable never used:   d
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\myMCP3208.c" Line 134(15,20): Variable never used:   div_h
+>>> Warning 202 "C:\Users\Paskorn\Dropbox\PICC\v1.5\myMCP3208.c" Line 134(22,27): Variable never used:   div_l
+>>> Warning 202 "suFlood.c" Line 37(5,13): Variable never used:   watchdog
+>>> Warning 202 "suFlood.c" Line 46(14,19): Variable never used:   count
+      Memory usage:   ROM=53%      RAM=33% - 65%
+      0 Errors,  20 Warnings.

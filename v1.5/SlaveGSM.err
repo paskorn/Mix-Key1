@@ -1,0 +1,6 @@
+>>> Warning 225 "G:\PM10\PicC\I2C_TCDC\v1.1\Slave.h" Line 50(26,32): Duplicate #define
+>>> Warning 225 "G:\PM10\PicC\I2C_TCDC\v1.1\Slave.h" Line 51(22,32): Duplicate #define
+>>> Warning 203 "SlaveGSM.c" Line 54(1,1): Condition always TRUE
+      Memory usage:   ROM=8%      RAM=23% - 25%
+      0 Errors,  3 Warnings.
+Build Successful.
